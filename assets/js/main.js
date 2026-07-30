@@ -571,7 +571,7 @@
 
   addHTML('.site-nav a[data-view]', ['About', 'Portfolio', 'Experience', 'Contact']);
   addHTML('.about-intro-text', [
-    'This portfolio presents projects covering distinct themes, from <span class="portfolio-domain-accent">data engineering</span> to management control, <span class="portfolio-domain-accent">data analysis</span>, data visualization and web development, with one shared goal: turning a specific subject into a <span class="portfolio-domain-accent">clear, useful and decision-oriented solution</span>.'
+    'This portfolio presents projects covering distinct themes, from <span class="portfolio-domain-accent">data engineering</span> to Finance, <span class="portfolio-domain-accent">data analysis</span>, data visualization and web development, with one shared goal: turning a specific subject into a <span class="portfolio-domain-accent">clear, useful and decision-oriented solution</span>.'
   ]);
   addHTML('.about-profile-section .hero-copy p', [
     'I am <strong>Mandrindra RABEMANANJARA</strong>, a <strong>data engineer</strong> with a background in <strong>finance</strong>. With <strong>8 years of experience</strong> in strongly <strong>data-oriented</strong> business environments, I design robust analyses, detailed reports and decision-support tools that help organizations monitor and improve their performance.',
@@ -604,7 +604,7 @@
   addHTML('.accomplishment-heading', [
     'Post-merger restructuring',
     'Integration of core business tools',
-    'Creation of a management control department',
+    'Creation of a Finance department',
     'Transformation of financial tools',
     'Financial recovery and budget management',
     'Strategic management and group visibility'
@@ -612,7 +612,7 @@
   addHTML('.accomplishment-copy', [
     'Active participation in the restructuring following the merger of Modis and Akka Technologies, which created AKKODIS. Contributed to team reorganization, stronger internal synergies and the implementation of a more coherent financial and operational organization aligned with the priorities of the new group.',
     'Contributed to the integration of billing software and an ERP system as the management-control business representative. Participated in requirements gathering, testing, acceptance and functional adjustments, while redesigning the analytical chart of accounts to make financial management more reliable.',
-    'Created and structured a dedicated management control department to support growth and strengthen performance management. The team now consists of three people.',
+    'Created and structured a dedicated Finance department to support growth and strengthen performance management. The team now consists of three people.',
     'Modernized financial tools by deploying automated solutions that significantly reduced reporting lead times. This transformation also strengthened key-indicator monitoring, giving management a clearer, more reliable and more responsive view of performance.',
     'Contributed to turning around a loss-making financial position and restoring a positive net result. Implemented structured cash-flow monitoring that sustainably eliminated bank overdrafts and stabilized the financial position.',
     'Deployed quarterly forecasts and structured concise financial reporting for the Board of Directors. This approach provided a clear, shared and decision-oriented view of the group’s financial and strategic objectives.'
@@ -625,7 +625,7 @@
   ]);
   addHTML('.formation-timeline .timeline-role', [
     'Data Engineer / Data Analyst program',
-    'Master’s degree in Audit and Management Control',
+    'Master’s degree in Audit and Finance',
     'Bachelor of Science in Finance'
   ]);
   addHTML('.formation-timeline .timeline-project', [
@@ -635,7 +635,7 @@
   ]);
   addHTML('.formation-timeline .timeline-tag', [
     'Python', 'SQL', 'Power BI', 'ETL', 'Docker', 'Machine Learning',
-    'Audit', 'Management Control', 'Performance', 'Corporate Finance',
+    'Audit', 'Finance', 'Performance', 'Corporate Finance',
     'Finance', 'Risk management', 'US GAAP', 'International Markets'
   ]);
   addHTML('.formation-timeline .timeline-highlight', [
@@ -645,7 +645,7 @@
   ]);
   addHTML('.formation-cards .card-subtitle', [
     'Bachelor of Science – Finance · 2016',
-    'Master’s degree in Finance – Audit &amp; Management Control · 2018',
+    'Master’s degree in Finance – Audit &amp; Finance · 2018',
     'RNCP certification – Data Analyst · 2026'
   ]);
   addHTML('.formation-cards .card-text', [
@@ -791,7 +791,7 @@
   addAttribute('.accomplishment-icon', 'alt', [
     'Post-merger restructuring',
     'Integration of core business tools',
-    'Creation of a management control department',
+    'Creation of a Finance department',
     'Transformation of financial tools',
     'Financial recovery and budget management',
     'Strategic management and group visibility'
