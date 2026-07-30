@@ -571,51 +571,51 @@
 
   addHTML('.site-nav a[data-view]', ['About', 'Portfolio', 'Experience', 'Contact']);
   addHTML('.about-intro-text', [
-    'This portfolio presents projects covering distinct themes, from <span class="portfolio-domain-accent">data engineering</span> to Finance, <span class="portfolio-domain-accent">data analysis</span>, data visualization and web development, with one shared goal: turning a specific subject into a <span class="portfolio-domain-accent">clear, useful and decision-oriented solution</span>.'
+    'This portfolio showcases projects in <span class="portfolio-domain-accent">data engineering</span>, finance, <span class="portfolio-domain-accent">data analysis</span>, data visualization, and web development. Each project starts with a specific business need and delivers a <span class="portfolio-domain-accent">clear, practical solution</span>.'
   ]);
   addHTML('.about-profile-section .hero-copy p', [
-    'I am <strong>Mandrindra RABEMANANJARA</strong>, a <strong>data engineer</strong> with a background in <strong>finance</strong>. With <strong>8 years of experience</strong> in strongly <strong>data-oriented</strong> business environments, I design robust analyses, detailed reports and decision-support tools that help organizations monitor and improve their performance.',
-    'I work across the entire <strong>decision-making data chain</strong>, from end to end: requirements gathering, user stories, agile project delivery, data modeling and structuring, pipeline development, process automation, quality controls and production deployment. I use <strong>Python</strong> and <strong>SQL</strong>, cloud-data platforms such as <strong>Microsoft Fabric</strong>, <strong>AWS</strong> and <strong>GCP</strong>, as well as orchestration and automation tools including <strong>n8n</strong> and <strong>GitHub Actions</strong>.',
-    'As an <strong>FP&amp;A Analyst</strong>, I manage budgeting cycles, monthly and annual closing periods, forecasts, workforce reporting, performance analysis and data visualization. I use data from <strong>ERP</strong> and <strong>HRIS</strong> systems, transforming it into reliable reports and clear dashboards with <strong>Advanced Excel / VBA</strong>, <strong>Power BI</strong>, <strong>Qlik</strong>, <strong>Looker</strong> and <strong>MyReport</strong>, with a strong focus on <strong>reliability</strong>, <strong>clarity</strong> and effective <strong>decision support</strong>.'
+    'I am <strong>Mandrindra RABEMANANJARA</strong>, a <strong>data engineer</strong> with a strong background in <strong>finance and FP&amp;A</strong>. Over the past <strong>eight years</strong>, I have worked in <strong>data-intensive</strong> business environments, building analytical solutions, reports, and decision-support tools that help organizations monitor performance and make better decisions.',
+    'I work across the full <strong>data and analytics lifecycle</strong>, from requirements gathering and user-story definition to data modeling, pipeline development, automation, quality assurance, and production deployment. My core tools include <strong>Python</strong> and <strong>SQL</strong>, cloud data platforms such as <strong>Microsoft Fabric</strong>, <strong>AWS</strong>, and <strong>Google Cloud</strong>, and automation tools such as <strong>n8n</strong> and <strong>GitHub Actions</strong>.',
+    'My finance experience includes budgeting, month-end and year-end close, forecasting, workforce cost analysis, performance management, and data visualization. I turn <strong>ERP</strong> and <strong>HRIS</strong> data into reliable reports and dashboards using <strong>advanced Excel and VBA</strong>, <strong>Power BI</strong>, <strong>Qlik</strong>, <strong>Looker</strong>, and <strong>MyReport</strong>, with a focus on <strong>accuracy</strong>, <strong>clarity</strong>, and practical <strong>decision support</strong>.'
   ]);
-  addHTML('.about-profile-section .cta-row > a:not(.btn-github)', ['✉ Contact me', 'View experience →']);
-  addHTML('.stack-section .stack-title', ['Technical stack', 'Business tools &amp; ERP']);
+  addHTML('.about-profile-section .cta-row > a:not(.btn-github)', ['✉ Contact Me', 'View My Experience →']);
+  addHTML('.stack-section .stack-title', ['Technical Stack', 'Business Tools &amp; ERP Systems']);
   addHTML('.expertise-metric-label span', ['years of experience', 'years of experience', 'years of experience']);
 
-  addHTML('#experience > .section-inner > .section-title', ['Organizations that trusted me']);
+  addHTML('#experience > .section-inner > .section-title', ['Organizations I Have Worked With']);
   addHTML('.experience-company-cards .card-subtitle', [
-    'Lyon-based foundation for mental health, disability and social care',
-    'Public-interest foundation supporting vulnerable people',
-    'Global IT consulting and digital services group',
-    'Leader in digital engineering, IT and engineering',
-    'Public-interest organization dedicated to asylum and integration',
+    'Lyon-Based Foundation Specializing in Mental Health, Disability Services, and Social Care',
+    'Public-Interest Foundation Supporting Children, Families, and Vulnerable Adults',
+    'Global IT and Business Consulting Company',
+    'Global Digital Engineering and Technology Consulting Company',
+    'Public-Interest Organization Focused on Asylum, Refugee Support, and Integration',
     'Madagascar’s National Investment Company'
   ]);
   addHTML('.experience-company-cards .card-text', [
-    'The ARHM Foundation works in mental health and disability. Its complementary activities—prevention, research, care and inclusion—aim to improve the care pathway and quality of life of the people it supports across the Lyon metropolitan area, the Rhône department and southern Saône-et-Loire.',
-    'Rooted in the Rhône department and the Lyon metropolitan area, the ACOLEA Foundation promotes social justice, equal rights and support for vulnerable children, young people, families and adults.',
-    'CGI is one of the world’s largest IT and professional services consulting firms, helping organizations with digital transformation and performance improvement.',
-    'Akkodis combines technological expertise, digital engineering and consulting to accelerate digital transformation, innovation and skills development within organizations.',
-    'Forum Réfugiés works in France and internationally to welcome and support refugees, defend the right to asylum and promote the rule of law.',
-    'SONAPAR supports Madagascar’s economic development through private equity, providing equity and quasi-equity financing solutions for companies and value-creating projects.'
+    'The ARHM Foundation provides mental health and disability services across the Lyon metropolitan area, the Rhône department, and southern Saône-et-Loire. Its work spans prevention, research, treatment, rehabilitation, and social inclusion, with the goal of improving care and quality of life.',
+    'Based in the Rhône department and the Lyon metropolitan area, the ACOLEA Foundation supports vulnerable children, young people, families, and adults through social care, education, and inclusion services.',
+    'CGI is one of the world’s largest IT and business consulting firms, helping organizations modernize operations, deliver digital transformation, and improve performance.',
+    'Akkodis combines technology expertise, digital engineering, and consulting to help organizations accelerate innovation, digital transformation, and workforce development.',
+    'Forum Réfugiés operates in France and internationally, supporting refugees, defending the right to asylum, and promoting the rule of law.',
+    'SONAPAR supports economic development in Madagascar through private-equity investments and equity or quasi-equity financing for businesses and growth projects.'
   ]);
-  addHTML('.experience-company-cards .company-link', ['Learn more', 'Learn more', 'Learn more', 'Learn more', 'Learn more', 'Learn more']);
-  addHTML('.experience-accomplishments-title', ['Achievements']);
+  addHTML('.experience-company-cards .company-link', ['Learn More', 'Learn More', 'Learn More', 'Learn More', 'Learn More', 'Learn More']);
+  addHTML('.experience-accomplishments-title', ['Selected Achievements']);
   addHTML('.accomplishment-heading', [
-    'Post-merger restructuring',
-    'Integration of core business tools',
-    'Creation of a Finance department',
-    'Transformation of financial tools',
-    'Financial recovery and budget management',
-    'Strategic management and group visibility'
+    'Post-Merger Integration',
+    'Finance Systems Integration',
+    'Built a Finance Function',
+    'Finance Process Automation',
+    'Financial Turnaround and Cash Management',
+    'Forecasting and Board Reporting'
   ]);
   addHTML('.accomplishment-copy', [
-    'Active participation in the restructuring following the merger of Modis and Akka Technologies, which created AKKODIS. Contributed to team reorganization, stronger internal synergies and the implementation of a more coherent financial and operational organization aligned with the priorities of the new group.',
-    'Contributed to the integration of billing software and an ERP system as the management-control business representative. Participated in requirements gathering, testing, acceptance and functional adjustments, while redesigning the analytical chart of accounts to make financial management more reliable.',
-    'Created and structured a dedicated Finance department to support growth and strengthen performance management. The team now consists of three people.',
-    'Modernized financial tools by deploying automated solutions that significantly reduced reporting lead times. This transformation also strengthened key-indicator monitoring, giving management a clearer, more reliable and more responsive view of performance.',
-    'Contributed to turning around a loss-making financial position and restoring a positive net result. Implemented structured cash-flow monitoring that sustainably eliminated bank overdrafts and stabilized the financial position.',
-    'Deployed quarterly forecasts and structured concise financial reporting for the Board of Directors. This approach provided a clear, shared and decision-oriented view of the group’s financial and strategic objectives.'
+    'Played an active role in the integration of Modis and Akka Technologies following the merger that created Akkodis. Helped reorganize teams, improve cross-functional collaboration, and establish a more consistent finance and operating model aligned with the new group’s priorities.',
+    'Represented Finance during the integration of a billing platform and an ERP system. Led requirements gathering, testing, user acceptance, and functional refinements, while redesigning the management accounting structure to improve reporting accuracy and financial control.',
+    'Built a dedicated Finance function to support growth and strengthen performance management. The team grew to three people.',
+    'Automated core finance reporting processes, shortening reporting cycles and improving KPI monitoring. The new tools gave management faster access to more reliable performance information.',
+    'Helped turn around a loss-making operation and restore profitability. Introduced structured cash-flow forecasting and monitoring that eliminated recurring overdrafts and stabilized liquidity.',
+    'Implemented quarterly forecasting and concise board-level reporting, giving directors a clear view of the group’s financial outlook, performance, and strategic priorities.'
   ]);
   addHTML('.formation-integrated-title', ['Education']);
   addHTML('.formation-timeline .timeline-company', [
@@ -624,128 +624,129 @@
     'New Jersey City University — New Jersey, United States'
   ]);
   addHTML('.formation-timeline .timeline-role', [
-    'Data Engineer / Data Analyst program',
-    'Master’s degree in Audit and Finance',
+    'Data Engineering and Data Analytics Program',
+    'Master’s Degree in Audit and Finance',
     'Bachelor of Science in Finance'
   ]);
   addHTML('.formation-timeline .timeline-project', [
-    'Intensive data, automation and analytics program, developing practical skills in Python, SQL, Power BI, ETL, Docker and data visualization tools.',
-    'Program focused on performance management, financial analysis, audit, corporate finance and IFRS standards.',
-    'Program focused on financial management, planning, risk, international markets and US GAAP.'
+    'Intensive program in data engineering, automation, and analytics, with hands-on work in Python, SQL, Power BI, ETL, Docker, and data visualization.',
+    'Coursework focused on performance management, financial analysis, audit, corporate finance, and IFRS.',
+    'Coursework focused on financial management, planning, risk, international markets, and U.S. GAAP.'
   ]);
   addHTML('.formation-timeline .timeline-tag', [
     'Python', 'SQL', 'Power BI', 'ETL', 'Docker', 'Machine Learning',
     'Audit', 'Finance', 'Performance', 'Corporate Finance',
-    'Finance', 'Risk management', 'US GAAP', 'International Markets'
+    'Finance', 'Risk management', 'U.S. GAAP', 'International Markets'
   ]);
   addHTML('.formation-timeline .timeline-highlight', [
-    '<strong>Approach:</strong> project-based training in data engineering, analytics and business intelligence tools.',
-    '<strong>Contribution:</strong> strengthened expertise in audit, financial performance and IFRS standards.',
-    '<strong>Contribution:</strong> consolidated a strong foundation in international finance and US GAAP.'
+    '<strong>Approach:</strong> Project-based training in data engineering, analytics, and business intelligence.',
+    '<strong>Focus:</strong> Audit, financial performance, corporate finance, and IFRS.',
+    '<strong>Focus:</strong> International finance, financial management, and U.S. GAAP.'
   ]);
   addHTML('.formation-cards .card-subtitle', [
-    'Bachelor of Science – Finance · 2016',
-    'Master’s degree in Finance – Audit &amp; Finance · 2018',
-    'RNCP certification – Data Analyst · 2026'
+    'Bachelor of Science in Finance · 2016',
+    'Master’s Degree in Audit and Finance · 2018',
+    'Data Engineering and Data Analytics Program · 2026'
   ]);
   addHTML('.formation-cards .card-text', [
-    'New Jersey City University (NJCU) is a public university in Jersey City, immediately adjacent to New York City. Founded in 1927, it offers a broad range of programs in business, science, education and professional studies, with a strong focus on applied learning and career readiness. Located in one of the most diverse cities in the United States, it provides a dynamic international environment that encourages openness, adaptability and an understanding of varied economic contexts.',
-    'INSEEC is a recognized French business school specializing in management, finance and marketing, with a strong focus on employability and international environments. Present in several major cities, it offers career-oriented programs developed in close collaboration with companies and encourages a practical approach to management, performance and decision-making challenges. Its positioning combines academic rigor with exposure to operational realities.',
-    'Wild Code School specializes in technology and data careers and is known for intensive, certified and highly practical programs. Available across several French campuses and remotely, its teaching model is built around real-world projects, personalized support and continuous adaptation to market needs. Its approach emphasizes rapid skills development, employability and mastery of tools that can be applied directly in the workplace.'
+    'New Jersey City University (NJCU) is a public university in Jersey City, New Jersey, near New York City. Founded in 1927, it offers programs in business, science, education, and professional studies, with an emphasis on applied learning and career preparation. Its location in one of the most diverse cities in the United States provides an international environment and exposure to a wide range of economic and cultural perspectives.',
+    'INSEEC is a French business school specializing in management, finance, and marketing. Its career-focused programs are developed in collaboration with employers and emphasize practical approaches to business performance, management, and decision-making. The curriculum combines academic coursework with exposure to real-world business challenges.',
+    'Wild Code School provides intensive, career-focused training in technology and data. Its project-based programs combine hands-on work, personalized support, and content aligned with current market needs. The curriculum emphasizes practical skills that can be applied directly in the workplace.'
   ]);
-  addHTML('.formation-cards .formation-link', ['Learn more', 'Learn more', 'Learn more']);
+  addHTML('.formation-cards .formation-link', ['Learn More', 'Learn More', 'Learn More']);
 
   addHTML('.project-cards .card-title', [
-    'Automated dashboard for cancelled trains',
+    'Automated Train Cancellation Dashboard',
     'Rhône Mobility Analysis',
-    'Web development: multi-view portfolio website'
+    'Front-End Development: Multi-View Portfolio Website'
   ]);
   addHTML('.project-cards .card-subtitle', [
     'Data engineering · Microsoft Fabric · GitHub Actions · GitHub Pages',
-    'Data Analysis · Power BI · Dataviz · Python · Open Data',
+    'Data Analysis · Power BI · Data Visualization · Python · Open Data',
     'Front-end · GitHub Pages · Vanilla JavaScript · Responsive'
   ]);
   addHTML('.project-cards .card-text', [
-    'Designed a complete data pipeline for SNCF cancelled-train data published on data.gouv.fr: ingestion, quality control, Bronze / Silver / Gold modeling and automated publication of a business dashboard updated daily.',
-    'Analyzed mobility across the Rhône department and Lyon metropolitan area using open data: Python preparation, analytical-model design and delivery through a clear Power BI report focused on territory, travel patterns and geographic concentration.',
-    'Developed a static, responsive, multi-view portfolio website with vanilla HTML, CSS and JavaScript, published through GitHub Pages.'
+    'Built an end-to-end data pipeline for SNCF train cancellation data published on data.gouv.fr, covering ingestion, data quality checks, Bronze/Silver/Gold modeling, and automated daily publication of a web dashboard.',
+    'Analyzed mobility patterns across the Rhône department and the Lyon metropolitan area using open data. The project included data preparation in Python, the design of an analytical data model, and a Power BI report focused on travel patterns and geographic concentration.',
+    'Developed a responsive, multi-view static portfolio using vanilla HTML, CSS, and JavaScript, and deployed it through GitHub Pages.'
   ]);
-  addHTML('.project-cards .project-open-link span', ['Learn more', 'Learn more', 'Learn more']);
-  addHTML('.project-card .project-button[href^="https://maxrabemananjara.github.io/"] > span:last-child', ['Website', 'Website']);
-  addHTML('.project-back-button', ['← Back to portfolio', '← Back to portfolio', '← Back to portfolio']);
+  addHTML('.project-cards .project-open-link span', ['Learn More', 'Learn More', 'Learn More']);
+  addHTML('.project-card .project-button[href^="https://maxrabemananjara.github.io/"] > span:last-child', ['View Website', 'View Website']);
+  addHTML('.project-back-button', ['← Back to Portfolio', '← Back to Portfolio', '← Back to Portfolio']);
 
   addHTML('.trains-article-header .section-kicker', ['DATA ENGINEERING PROJECT']);
-  addHTML('.trains-article-header h1', ['Open Data mobility:<br>automated monitoring of<br>cancelled trains']);
-  addHTML('.trains-article-lead', ['Transforming raw public data into actionable, validated indicators available through a web dashboard.']);
+  addHTML('.trains-article-header h1', ['Automated Train Cancellation<br>Monitoring Using<br>Open Data']);
+  addHTML('.trains-article-lead', ['Turning raw public data into reliable metrics and publishing them in an interactive web dashboard.']);
   addHTML('.trains-article-meta', ['Project: <strong>Data Engineering / BI / Open Data</strong>']);
-  addHTML('.trains-article-section > h2', ['CONTEXT', 'PROPOSED SOLUTION', 'DELIVERY', 'RESULT', 'TECHNICAL STACK', 'EXTERNAL LINKS']);
+  addHTML('.trains-article-section > h2', ['CONTEXT', 'SOLUTION ARCHITECTURE', 'DASHBOARD', 'KEY RESULTS', 'TECHNICAL STACK', 'EXTERNAL LINKS']);
   addHTML('.trains-article-section > p', [
-    'Mobility data is often available as public files that are accessible but difficult to use directly. This project starts from a concrete case: the list of cancelled trains published on data.gouv.fr. The goal is not simply to display figures, but to build a data pipeline that turns these files into clear, validated and reusable information.',
-    'The solution is based on an automated pipeline: source-data retrieval, schema validation, cleaning, standardization, deduplication and analytical-model construction. The architecture follows a Bronze / Silver / Gold approach to separate raw, validated and analysis-ready data.',
-    'Microsoft Fabric provides the technical foundation for organizing the Lakehouse zones, while GitHub Actions and GitHub Pages handle updates and publication of the public dashboard.',
-    'The dashboard tracks cancellations over a selected period, filters by station or train type, and identifies the most affected stations or routes. Its charts show volumes, daily trends, distribution by train type and time slots.'
+    'Mobility datasets are often publicly available but not ready for analysis. This project uses an open dataset of cancelled trains published on data.gouv.fr. Rather than simply displaying totals, it builds a data pipeline that converts raw files into clean, validated, and reusable data.',
+    'The automated pipeline handles data ingestion, schema validation, cleaning, standardization, deduplication, and analytical modeling. A Bronze/Silver/Gold architecture separates raw data from validated and analysis-ready datasets.',
+    'Microsoft Fabric hosts the Bronze, Silver, and Gold Lakehouse layers. GitHub Actions automates dashboard updates and deployment, while GitHub Pages hosts the public interface.',
+    'The dashboard lets users analyze cancellations by date range, station, and train type, and identify the most affected stations and routes. Visuals show total cancellations, daily trends, breakdowns by train type, and time-of-day patterns.'
   ]);
-  addHTML('.trains-article-facts span', ['Source', 'Architecture', 'Delivery']);
+  addHTML('.trains-article-facts span', ['Source', 'Architecture', 'Publication']);
   addHTML('.trains-article-facts strong', [
     'Public data published on data.gouv.fr',
     'Bronze / Silver / Gold with Microsoft Fabric',
-    'Public dashboard published through GitHub Pages'
+    'Public dashboard hosted on GitHub Pages'
   ]);
   addHTML('.trains-article-figure figcaption', [
-    'Project workflow: from open-data source to public delivery.',
-    'Business dashboard: KPIs, trends, affected stations and monitoring filters.'
+    'Project workflow: from open data ingestion to public dashboard deployment.',
+    'Web dashboard: KPIs, trends, affected stations, and interactive filters.'
   ]);
   addHTML('.trains-proof-section li', [
-    'Transformed raw public data into clear, actionable business indicators.',
-    'Structured a <strong>Bronze / Silver / Gold</strong> architecture to separate raw, validated and analysis-ready data.',
-    'Implemented quality checks for the schema, mandatory fields, dates, times and duplicates.',
-    'Built an analytical model organized around facts, dimensions and KPIs.',
-    'Published an accessible web dashboard with automated updates.'
+    'Converted raw public data into clear business metrics.',
+    'Designed a <strong>Bronze/Silver/Gold</strong> architecture that separates raw, validated, and analysis-ready data.',
+    'Implemented data quality checks for schema validation, required fields, dates, times, and duplicate records.',
+    'Built an analytical model based on fact tables, dimensions, and KPIs.',
+    'Published a public web dashboard with automated daily updates.'
   ]);
-  addHTML('.trains-links-section .project-button:not(.project-button-secondary)', ['View dashboard']);
+  addHTML('.trains-links-section .project-button:not(.project-button-secondary)', ['View Dashboard']);
 
-  addHTML('.mobilite-article-header .section-kicker', ['BI PROJECTS · DATA ANALYSIS · DATAVIZ · BUSINESS INSIGHTS']);
-  addHTML('.mobilite-article-header h1', ['Transforming public data into an actionable Power BI solution']);
-  addHTML('.mobilite-article-meta', ['Project: <strong>Data Analysis / Dataviz / Power BI</strong>']);
+  addHTML('.mobilite-article-header .section-kicker', ['BI PROJECT · DATA ANALYSIS · DATA VISUALIZATION · BUSINESS INSIGHTS']);
+  addHTML('.mobilite-article-header h1', ['Turning Public Data into a Power BI Mobility Analysis']);
+  addHTML('.mobilite-article-meta', ['Project: <strong>Data Analysis / Data Visualization / Power BI</strong>']);
   addHTML('.mobilite-article-lead', [
-    'This project analyzes mobility across the Rhône department and the Lyon metropolitan area using public sources. The aim is not to present a simple visualization, but to demonstrate a complete process: data preparation with Python, design of an analytical model and delivery through a clear Power BI report.',
-    'The final report explores the area from three perspectives: overall volume, travel patterns over time and geographic concentration. Technical details remain available in the GitHub repository so that the project can be audited.'
+    'This project analyzes mobility patterns across the Rhône department and the Lyon metropolitan area using public data. It covers the full workflow, from preparing the data in Python to building an analytical data model and presenting the results in Power BI.',
+    'The final report examines three areas: overall travel volume, time-based patterns, and geographic concentration. Technical documentation is available in the GitHub repository for review and reproducibility.'
   ]);
   addHTML('.mobilite-article-section > h2', [
-    'PROJECT APPROACH', 'PROCESSING PIPELINE', 'POWER BI MODELING', 'POWER BI REPORT', 'TECHNICAL STACK', 'CONCLUSION'
+    'PROJECT APPROACH', 'PROCESSING PIPELINE', 'DATA MODEL', 'POWER BI REPORT', 'TECHNICAL STACK', 'CONCLUSION'
   ]);
   addHTML('.mobilite-article-section > p:not(.mobilite-powerbi-caption)', [
-    'The project’s value lies in the connection between Python, Power BI and business-oriented delivery. Each step has a distinct role: preparing the data correctly, building a coherent model and producing a clear view of the territory.',
-    'The workflow presents the project’s overall logic: starting with scattered public data, validating and transforming it with Python, then structuring it in a Power BI model designed for territorial analysis.',
-    'The prepared data is organized using a data-warehouse approach. Fact tables retain the detail of journeys, counts, weather, roadworks and stations, while dimensions structure dates, municipalities, time slots, areas and fares.',
-    'This organization avoids an overly heavy single table and feeds Power BI through clear relationships, consistent filters and reliable indicators.',
-    'The Power BI report brings together three pages: overview, time analysis and geographic analysis. The embedded report below lets users navigate directly between pages while preserving the dashboard’s filters and interactions.',
-    'The analysis highlights mobility concentrated around a small number of recurring hubs. From January to March 2026, the model covers 74,795 journeys; March is the strongest month after a slight dip in February.',
-    'The most visible flows notably involve Villeurbanne, Bron, Saint-Priest, Écully and Bourgoin-Jallieu. The time analysis confirms two dominant periods: 08:00–12:00 and 16:00–20:00, mainly on working days.',
-    'The report therefore turns scattered open sources into a functional view of the area: identifying the busiest zones, understanding peak periods and highlighting routes that warrant deeper analysis.'
+    'The project connects Python-based data preparation, Power BI modeling, and business reporting. Each stage has a clear purpose: prepare reliable data, build a coherent model, and present mobility patterns in a format that is easy to explore.',
+    'The workflow begins with fragmented public datasets, validates and transforms them in Python, and organizes the prepared data in a Power BI model designed for geographic and mobility analysis.',
+    'The prepared data is organized as a data warehouse. Fact tables store trip records, volume measures, weather, and roadwork data, while dimension tables organize dates, municipalities, time bands, geographic areas, stations, and fares.',
+    'This structure avoids relying on a single oversized table and gives Power BI clear relationships, consistent filtering, and reliable measures.',
+    'The Power BI report includes three pages: an overview, a time-based analysis, and a geographic analysis. The embedded report lets users move between pages while preserving filters and interactions.',
+    'The analysis shows that mobility is concentrated around a small number of recurring hubs. Between January and March 2026, the dataset includes 74,795 trips, with the highest volume recorded in March after a slight decline in February.',
+    'The most prominent travel flows involve Villeurbanne, Bron, Saint-Priest, Écully, and Bourgoin-Jallieu. The time analysis identifies two peak periods—8:00 a.m. to noon and 4:00 p.m. to 8:00 p.m.—primarily on weekdays.',
+    'By consolidating fragmented public datasets, the report helps identify high-traffic areas, understand peak periods, and flag routes for deeper analysis.'
   ]);
   addHTML('.mobilite-step-grid span', ['1 · Python preparation', '2 · Power BI modeling', '3 · Visual storytelling']);
   addHTML('.mobilite-step-grid p', [
-    'Collected open sources, performed profiling, checked volumes, duplicates, empty values and formats, and added time or geographic enrichments.',
-    'Built a constellation analytical model with facts, dimensions, technical keys and consistent relationships for stable filtering.',
-    'Delivered three pages—overview, time analysis and geographic analysis—to guide interpretation of the territory.'
+    'Collected public datasets, profiled the data, checked row counts, duplicates, missing values, and formats, and added time-based and geographic fields.',
+    'Built a constellation model with fact tables, dimensions, technical keys, and consistent relationships to support reliable filtering.',
+    'Delivered three report pages—overview, time-based analysis, and geographic analysis—to make the mobility patterns easy to interpret.'
   ]);
   addHTML('.mobilite-article-figure figcaption', [
     'Summary workflow: open sources, Python profiling, data preparation, analytical model and Power BI dashboard.',
     'Power BI model extract: fact tables, dimensions and analytical relationships.'
   ]);
   addHTML('.mobilite-powerbi-caption', ['Interactive Power BI report: overview, time analysis and geographic analysis.']);
+  addHTML('.mobilite-tech-grid .stack-name', ['Python', 'Power BI', 'Open Data', 'Data Visualization', 'Data Analysis', 'Business Insights']);
 
-  addHTML('.portfolio-web-article-header h1', ['Web development:<br>multi-view portfolio website']);
+  addHTML('.portfolio-web-article-header h1', ['Front-End Development:<br>Multi-View Portfolio Website']);
   addHTML('.portfolio-web-article-lead', [
-    'This project covers the development of the personal portfolio website published through GitHub Pages. Its purpose is not merely to create a showcase page, but to design a professional platform that structures an identity, highlights projects and presents a career path through clear navigation and a responsive experience.'
+    'This project involved designing and developing a personal portfolio website deployed on GitHub Pages. The site presents a professional profile, detailed project case studies, and career experience through clear navigation and a responsive interface.'
   ]);
   addHTML('.portfolio-web-article-meta', ['Project: <strong>Front-end / GitHub Pages / Portfolio</strong>']);
   addHTML('.portfolio-web-article-section > h2', ['CONTEXT', 'TECHNICAL IMPLEMENTATION', 'RESULT', 'TECHNICAL STACK', 'EXTERNAL LINKS']);
   addHTML('.portfolio-web-article-section > p', [
-    'The project follows a technically streamlined approach: building a fast, scalable static website while maintaining a clear presentation of content and achievements.',
-    'The website must be easy for a recruiter to read while demonstrating genuine technical ability: structuring a web interface, organizing project content, managing interactions, integrating external resources and publishing a polished result without a heavy framework.',
-    'The result is a fast, clear, responsive and maintainable web portfolio that presents a professional profile, detailed projects and external resources through a consistent interface. New project cards can be added progressively without changing the existing architecture.'
+    'The project uses a streamlined technical approach: a fast, maintainable static site with a clear presentation of experience, projects, and achievements.',
+    'The site makes it easy for recruiters to explore my experience and projects while demonstrating hands-on front-end skills, including interface structure, content organization, interaction design, integration of external links, dashboards, and project repositories, and deployment without a heavy framework.',
+    'The result is a fast, responsive, and maintainable portfolio with a consistent interface for professional experience, project case studies, and external resources. New projects can be added without changing the site’s core architecture.'
   ]);
   addHTML('.portfolio-web-context-summary span', ['FOUNDATION', 'PUBLICATION', 'EXPERIENCE']);
   addHTML('.portfolio-web-context-summary strong', [
@@ -757,29 +758,29 @@
     'Editorial and technical architecture of the portfolio: internal views, detailed projects and web publication.'
   ]);
   addHTML('.portfolio-web-article-section > ul > li', [
-    'Built a complete static website with vanilla HTML5, CSS3 and JavaScript.',
-    'Implemented multi-view navigation without full-page reloads.',
-    'Created a Light/Dark system with CSS variables and local persistence.',
-    'Added a responsive mobile menu.',
-    'Designed project cards with three distinct actions.',
-    'Integrated detailed project pages.',
-    'Embedded Power BI through an iframe.',
-    'Published through GitHub Pages without a framework or mandatory build step.',
-    'Organized local assets: images, SVG files, backgrounds and documents.'
+    'Built a complete static website with vanilla HTML5, CSS3, and JavaScript.',
+    'Implemented client-side multi-view navigation without full-page reloads.',
+    'Created a persistent light/dark theme using CSS variables and local storage.',
+    'Implemented a responsive mobile menu.',
+    'Designed project cards with dedicated actions for project details, live demos, and GitHub repositories.',
+    'Built detailed project case-study pages.',
+    'Embedded Power BI reports using iframes.',
+    'Deployed on GitHub Pages with no framework or required build step.',
+    'Organized local assets, including images, SVG files, backgrounds, and documents.'
   ]);
   addHTML('.portfolio-web-tech-grid .stack-name', [
     'HTML5', 'CSS3', 'Vanilla JavaScript', 'GitHub Pages', 'Power BI iframe', 'Responsive design', 'Light / Dark mode'
   ]);
-  addHTML('.portfolio-web-links-section .project-button:not(.project-button-secondary) > span:last-child', ['Website']);
+  addHTML('.portfolio-web-links-section .project-button:not(.project-button-secondary) > span:last-child', ['View Website']);
 
-  addHTML('.contact-form-heading', ['Contact me']);
-  addHTML('.contact-form label', ['Name', 'Email', 'Your message']);
+  addHTML('.contact-form-heading', ['Contact Me']);
+  addHTML('.contact-form label', ['Name', 'Email', 'Message']);
   addHTML('.contact-submit', ['Send']);
   addHTML('.model-footer-copy', ['© 2026 Mandrindra Rabemananjara. All rights reserved.']);
   addHTML('.model-footer-nav a', ['About', 'Portfolio', 'Experience', 'Contact']);
-  addHTML('.model-footer-title', ['Contact']);
+  addHTML('.model-footer-title', ['Contact Information']);
 
-  addAttribute('.language-switch', 'aria-label', ['Choose language']);
+  addAttribute('.language-switch', 'aria-label', ['Select Language']);
   addAttribute('.header-signature', 'aria-label', ['Mandrindra Rabemananjara emblem']);
   addAttribute('.header-signature img', 'alt', ['Mandrindra Rabemananjara emblem']);
   addAttribute('.site-nav', 'aria-label', ['Main navigation']);
@@ -789,27 +790,27 @@
   addAttribute('.about-profile-section .photo-card img', 'alt', ['Professional portrait of Mandrindra Rabemananjara']);
   addAttribute('.expertise-metrics-grid', 'aria-label', ['Key experience']);
   addAttribute('.accomplishment-icon', 'alt', [
-    'Post-merger restructuring',
-    'Integration of core business tools',
-    'Creation of a Finance department',
-    'Transformation of financial tools',
-    'Financial recovery and budget management',
-    'Strategic management and group visibility'
+    'Post-Merger Integration',
+    'Finance Systems Integration',
+    'Built a Finance Function',
+    'Finance Process Automation',
+    'Financial Turnaround and Cash Management',
+    'Forecasting and Board Reporting'
   ]);
   addAttribute('.project-card > .card-media img', 'alt', [
-    'Automated dashboard for cancelled trains',
+    'Automated Train Cancellation Dashboard',
     'Rhône Mobility Analysis',
-    'Web development: multi-view portfolio website'
+    'Front-End Development: Multi-View Portfolio Website'
   ]);
   addAttribute('.trains-article-cover img', 'alt', ['Editorial map, KPIs and delivery pipeline']);
   addAttribute('.trains-article-cover img', 'data-caption', ['Cover image']);
   addAttribute('.trains-article-cover img', 'data-zoom-caption', ['Cover image']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'alt', ['Project workflow: from open data to public delivery']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'data-caption', ['Project workflow']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'data-zoom-caption', ['Project workflow']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'alt', ['Business dashboard: KPIs, trends, affected stations and monitoring filters']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'data-caption', ['Business dashboard']);
-  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'data-zoom-caption', ['Business dashboard']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'alt', ['Project workflow: from open data ingestion to public dashboard deployment.']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'data-caption', ['Project workflow: from open data ingestion to public dashboard deployment.']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-02"]', 'data-zoom-caption', ['Project workflow: from open data ingestion to public dashboard deployment.']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'alt', ['Web dashboard: KPIs, trends, affected stations, and interactive filters.']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'data-caption', ['Web dashboard: KPIs, trends, affected stations, and interactive filters.']);
+  addAttribute('.trains-article-figure img[src*="img-trains-supprimes-03"]', 'data-zoom-caption', ['Web dashboard: KPIs, trends, affected stations, and interactive filters.']);
   addAttribute('.project-tech-grid', 'aria-label', ['Project technical stack']);
   addAttribute('.trains-links-section .project-github-link', 'aria-label', ['View GitHub']);
   addAttribute('.trains-links-section .project-github-link', 'title', ['View GitHub']);
@@ -826,9 +827,9 @@
   addAttribute('.mobilite-powerbi-embed', 'aria-label', ['Interactive Power BI report: Rhône Mobility Analysis']);
   addAttribute('.mobilite-tech-grid', 'aria-label', ['Project technical stack']);
 
-  addAttribute('.portfolio-web-article-cover img', 'alt', ['Web development: multi-view portfolio website']);
-  addAttribute('.portfolio-web-article-cover img', 'data-caption', ['Web development: multi-view portfolio website']);
-  addAttribute('.portfolio-web-article-cover img', 'data-zoom-caption', ['Web development: multi-view portfolio website']);
+  addAttribute('.portfolio-web-article-cover img', 'alt', ['Front-End Development: Multi-View Portfolio Website']);
+  addAttribute('.portfolio-web-article-cover img', 'data-caption', ['Front-End Development: Multi-View Portfolio Website']);
+  addAttribute('.portfolio-web-article-cover img', 'data-zoom-caption', ['Front-End Development: Multi-View Portfolio Website']);
   addAttribute('.portfolio-web-article-figure img[src*="img-portfolio-web-02"]', 'alt', ['Portfolio technical stack and workflow']);
   addAttribute('.portfolio-web-article-figure img[src*="img-portfolio-web-02"]', 'data-caption', ['Portfolio technical stack and workflow']);
   addAttribute('.portfolio-web-article-figure img[src*="img-portfolio-web-02"]', 'data-zoom-caption', ['Portfolio technical stack and workflow']);
@@ -840,7 +841,7 @@
   addAttribute('.model-footer-mr', 'aria-label', ['Back to home']);
   addAttribute('.model-footer-emblem', 'aria-label', ['Back to home']);
   addAttribute('.model-footer-nav', 'aria-label', ['Footer navigation']);
-  addAttribute('#project1-zoom-panel', 'aria-label', ['Project image zoom']);
+  addAttribute('#project1-zoom-panel', 'aria-label', ['Enlarged Project Image']);
   addAttribute('#project1-zoom-close', 'aria-label', ['Close zoom']);
   addAttribute('.formation-carousel-prev', 'aria-label', ['Previous education slide']);
   addAttribute('.formation-carousel-next', 'aria-label', ['Next education slide']);
