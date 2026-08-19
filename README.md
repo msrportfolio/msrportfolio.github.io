@@ -1,4 +1,4 @@
-﻿# Portfolio Mandrindra Rabemananjara
+# Projet site portfolio
 
 Portfolio personnel construit en site statique pour présenter un profil à l’intersection de la data, du contrôle de gestion, de la datavisualisation et du développement web.
 
@@ -6,7 +6,7 @@ Le site met en avant une sélection de projets concrets, des environnements prof
 
 ## Lien
 
-Site publié : [https://maxrabemananjara.github.io/](https://maxrabemananjara.github.io/)
+Site publié : [https://msrportfolio.github.io/](https://msrportfolio.github.io/)
 
 ## Objectif
 
